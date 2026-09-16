@@ -210,7 +210,7 @@ public class Main {
         resourceService.displayAvailableResources();
     }
     private static void bookResource()
-            throws BookingConflictException {
+        throws BookingConflictException, InvalidInputException {
         System.out.println("\nBook Resource");
         System.out.print("User ID: ");
         int userId = Integer.parseInt(scanner.nextLine());
